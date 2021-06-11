@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54FBFDC6266F18DC0083D379 /* DroneDeploy_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDC5266F18DC0083D379 /* DroneDeploy_ChallengeApp.swift */; };
 		54FBFDC8266F18DC0083D379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDC7266F18DC0083D379 /* ContentView.swift */; };
 		54FBFDCA266F18DD0083D379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBFDC9266F18DD0083D379 /* Assets.xcassets */; };
 		54FBFDCD266F18DD0083D379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBFDCC266F18DD0083D379 /* Preview Assets.xcassets */; };
-		54FBFDD9266F19A30083D379 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDD8266F19A30083D379 /* Presenter.swift */; };
-		54FBFDDB266F19B40083D379 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDDA266F19B40083D379 /* Interactor.swift */; };
+		54FBFDD9266F19A30083D379 /* AuthenticationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDD8266F19A30083D379 /* AuthenticationPresenter.swift */; };
+		54FBFDDB266F19B40083D379 /* AuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDDA266F19B40083D379 /* AuthenticationInteractor.swift */; };
+		54FBFDF02672FE750083D379 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDEF2672FE750083D379 /* AuthenticationView.swift */; };
+		54FBFDF22672FE9B0083D379 /* AuthenticationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDF12672FE9B0083D379 /* AuthenticationRouter.swift */; };
+		54FBFDF42672FF420083D379 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDF32672FF420083D379 /* HomeView.swift */; };
+		54FBFDF72672FF700083D379 /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDF62672FF700083D379 /* HomeDetailView.swift */; };
+		54FBFDF9267300090083D379 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDF8267300090083D379 /* HomeInteractor.swift */; };
+		54FBFDFB267300170083D379 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDFA267300170083D379 /* HomeRouter.swift */; };
+		54FBFDFD2673002F0083D379 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFDFC2673002F0083D379 /* HomePresenter.swift */; };
+		54FBFE03267311EE0083D379 /* DroneDeploy_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBFE02267311EE0083D379 /* DroneDeploy_ChallengeApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54FBFDC2266F18DC0083D379 /* DroneDeploy_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneDeploy_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54FBFDC5266F18DC0083D379 /* DroneDeploy_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneDeploy_ChallengeApp.swift; sourceTree = "<group>"; };
 		54FBFDC7266F18DC0083D379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54FBFDC9266F18DD0083D379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54FBFDCC266F18DD0083D379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54FBFDCE266F18DD0083D379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54FBFDD8266F19A30083D379 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		54FBFDDA266F19B40083D379 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		54FBFDD8266F19A30083D379 /* AuthenticationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenter.swift; sourceTree = "<group>"; };
+		54FBFDDA266F19B40083D379 /* AuthenticationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationInteractor.swift; sourceTree = "<group>"; };
+		54FBFDEF2672FE750083D379 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		54FBFDF12672FE9B0083D379 /* AuthenticationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRouter.swift; sourceTree = "<group>"; };
+		54FBFDF32672FF420083D379 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54FBFDF62672FF700083D379 /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
+		54FBFDF8267300090083D379 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		54FBFDFA267300170083D379 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		54FBFDFC2673002F0083D379 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		54FBFE02267311EE0083D379 /* DroneDeploy_ChallengeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneDeploy_ChallengeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,10 @@
 		54FBFDC4266F18DC0083D379 /* DroneDeploy_Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				54FBFDC5266F18DC0083D379 /* DroneDeploy_ChallengeApp.swift */,
+				54FBFE02267311EE0083D379 /* DroneDeploy_ChallengeApp.swift */,
 				54FBFDC7266F18DC0083D379 /* ContentView.swift */,
-				54FBFDD8266F19A30083D379 /* Presenter.swift */,
-				54FBFDDA266F19B40083D379 /* Interactor.swift */,
+				54FBFDF52672FF480083D379 /* HomeModule */,
+				54FBFDEE2672FE040083D379 /* AuthenticationModule */,
 				54FBFDC9266F18DD0083D379 /* Assets.xcassets */,
 				54FBFDCE266F18DD0083D379 /* Info.plist */,
 				54FBFDCB266F18DD0083D379 /* Preview Content */,
@@ -73,6 +87,29 @@
 				54FBFDCC266F18DD0083D379 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54FBFDEE2672FE040083D379 /* AuthenticationModule */ = {
+			isa = PBXGroup;
+			children = (
+				54FBFDEF2672FE750083D379 /* AuthenticationView.swift */,
+				54FBFDDA266F19B40083D379 /* AuthenticationInteractor.swift */,
+				54FBFDD8266F19A30083D379 /* AuthenticationPresenter.swift */,
+				54FBFDF12672FE9B0083D379 /* AuthenticationRouter.swift */,
+			);
+			path = AuthenticationModule;
+			sourceTree = "<group>";
+		};
+		54FBFDF52672FF480083D379 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				54FBFDF32672FF420083D379 /* HomeView.swift */,
+				54FBFDF62672FF700083D379 /* HomeDetailView.swift */,
+				54FBFDF8267300090083D379 /* HomeInteractor.swift */,
+				54FBFDFC2673002F0083D379 /* HomePresenter.swift */,
+				54FBFDFA267300170083D379 /* HomeRouter.swift */,
+			);
+			path = HomeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FBFDD9266F19A30083D379 /* Presenter.swift in Sources */,
+				54FBFDD9266F19A30083D379 /* AuthenticationPresenter.swift in Sources */,
 				54FBFDC8266F18DC0083D379 /* ContentView.swift in Sources */,
-				54FBFDDB266F19B40083D379 /* Interactor.swift in Sources */,
-				54FBFDC6266F18DC0083D379 /* DroneDeploy_ChallengeApp.swift in Sources */,
+				54FBFDF22672FE9B0083D379 /* AuthenticationRouter.swift in Sources */,
+				54FBFDDB266F19B40083D379 /* AuthenticationInteractor.swift in Sources */,
+				54FBFDF02672FE750083D379 /* AuthenticationView.swift in Sources */,
+				54FBFDF9267300090083D379 /* HomeInteractor.swift in Sources */,
+				54FBFE03267311EE0083D379 /* DroneDeploy_ChallengeApp.swift in Sources */,
+				54FBFDF72672FF700083D379 /* HomeDetailView.swift in Sources */,
+				54FBFDF42672FF420083D379 /* HomeView.swift in Sources */,
+				54FBFDFB267300170083D379 /* HomeRouter.swift in Sources */,
+				54FBFDFD2673002F0083D379 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

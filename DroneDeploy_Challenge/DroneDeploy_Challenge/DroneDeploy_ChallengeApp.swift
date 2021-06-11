@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DroneDeploy_ChallengeApp: App {
+struct DroneDeploy_ChallengeApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()

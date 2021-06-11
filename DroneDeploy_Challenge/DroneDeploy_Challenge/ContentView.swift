@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var presenter = AuthenticationPresenter(interactor: AuthenticationInteractor())
+    @ObservedObject var homePresenter = HomePresenter(interactor: HomeInteractor())
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            if presenter.isAuthenticating == false || homePresenter.isAuthenticating == false {
+                HomeView(presenter: homePresenter)
+            } else {
+                AuthenticationView(presenter: presenter)
+            }
+        }
+        .onChange(of: presenter.isAuthenticating) { isAuthenticating in
+            homePresenter.isAuthenticating = isAuthenticating
+        }
+        .onChange(of: homePresenter.isAuthenticating) { isAuthenticating in
+            presenter.isAuthenticating = isAuthenticating
+        }
     }
 }
 
