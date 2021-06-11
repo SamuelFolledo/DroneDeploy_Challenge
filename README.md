@@ -1,6 +1,9 @@
 # [DroneDeploy](https://www.dronedeploy.com/) iOS Take Home Task
 
-
+## How to run
+- No requirements needed
+- Open `DroneDeploy_Challenge.xcodeproj` file
+- Select device type and click run (`CMD + R`)
 
 Given the simple app UI layout below:
 
